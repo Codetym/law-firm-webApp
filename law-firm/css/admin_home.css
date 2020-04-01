@@ -1,0 +1,91 @@
+body{
+    background-color: #333;
+}
+table{
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+tr th{
+    font-weight:bold;
+    }
+tr th, tr td{
+    padding:5px;
+    border-radius: 20px solid #C1DAD7;
+}
+a{
+    display: block;
+}
+
+th td a{
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+ a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: aqua;
+    color: red;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+th{
+    border: 5px solid #C1DAD7;
+}
+td{
+    border: 5px solid #C1DAD7;
+}
+.c1{
+    background:#4b8c74;
+}
+.c2{
+    background:#74c476;
+}
+.c3{
+    background:#a4e56d;
+}
+.c4{
+    background:#cffc83;
+}
+#icon{
+    font-size: 5em;
+}
+.images{
+    font-size: 5em;
+}
+
+ h1 { 
+    text-align:center; 
+    color:green; 
+} 
+body { 
+    width:100%; 
+} 
+.container .box { 
+    width:100%; 
+    margin:0px; 
+    display:table; 
+} 
+.container .box .box-row { 
+    display:table-row; 
+} 
+.container .box .box-cell { 
+    display:table-cell; 
+    width:auto; 
+    padding:5px; 
+} 
+.container .box .box-cell.box1 { 
+    background:green; 
+    color:white; 
+    text-align:justify;
+    width:22%;
+ } 
+.container .box .box-cell.box2 { 
+    background:lightgreen; 
+    text-align:justify 
+}

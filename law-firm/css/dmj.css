@@ -1,0 +1,155 @@
+html {
+    background: #333;
+    
+    -webkit-font-smoothing: antialiased;
+    font-family: "lucida sans",sans serif;
+}
+
+body {
+	margin: 0;
+	background-color: bisque;;
+    overflow: auto;
+	color: white;
+    font: courier new;
+}
+
+h1{
+	margin-top: 0px;
+	text-align: center;
+	color: blue;
+    font-family: inherit;
+    font: roboto;
+	font-weight: bolder;
+	
+}
+b, strong {
+    font-weight: bolder;
+}
+ul {
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 32%;
+	text-align: center;
+    list-style-type: none;
+    z-index:1; /*Add this*/
+}
+
+li {
+	float: left;
+    list-style: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: turquoise;
+    text-decoration: none;
+}
+
+.active {
+	background-color: blue;
+    text-decoration: none;
+}
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+
+/**********************************/
+/*          Styling Footer        */
+/**********************************/
+  
+/*** Adding Styles to Company Details ***/
+.company-details{ 
+    overflow: hidden; 
+ 
+    background: #E3F0F7; 
+    text-align: center; 
+    margin-top: 5em;
+	color: green;
+} 
+  
+#footer #col1, 
+#footer #col2, 
+#footer #col3{ 
+    float: left; 
+    width: 320px; 
+    padding: 0px 10px 0px 10px; 
+} 
+      
+#footer #icon{ 
+    display: block; 
+    margin-bottom: 1em; 
+    font-size: 3em;
+	padding: 20px;
+} 
+  
+/*** Adding Styles to Copyright Div ***/
+.copyright 
+{ 
+    overflow: hidden; 
+ 
+    border-top: 20px solid rgba(255, 255, 255, 0.08); 
+    text-align: center; 
+    background: #4CAF50; 
+} 
+      
+.copyright p 
+{ 
+    letter-spacing: 3px; 
+    font-size: 0.90em; 
+    color: rgba(255, 255, 255, 0.6); 
+} 
+      
+.copyright a 
+{ 
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.8); 
+} 
+  
+/* Styling Social Icons */
+ol.contact{ 
+    margin: 0; 
+    padding: 2em 0em 0em 0em; 
+    list-style-type: none; 
+} 
+      
+ol.contact li{ 
+    display: inline; 
+    padding: 0em 0.10em; 
+    font-size: 1em; 
+} 
+  
+ol.contact li a{ 
+    color: #FFF; 
+    display: inline; 
+    background: #4C93B9; 
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center;
+    padding: 20px; 
+}
+#icon{
+    font-size: 5em;
+    padding: 20px;
+    padding-left: 30px;
+}
+
